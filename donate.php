@@ -2,7 +2,7 @@
   require_once("stripe/init.php");
 
   // Set API Key
-  \Stripe\Stripe::setApiKey("sk_test_8ZKUjCYtEmkOPAB2Gm1jMdMP");
+  \Stripe\Stripe::setApiKey("<insert key here>");
 
   // This is sent from Stripe.js
   $token = $_POST["stripeToken"];

@@ -5,7 +5,7 @@
     <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
     <script type="text/javascript">
-      Stripe.setPublishableKey("pk_test_Auyu4UOFgonj3xwxAQP1y8ps");
+      Stripe.setPublishableKey("<insert key here>");
     </script>
     <script src="/assets/javascripts/main.js"></script>
   </head>
@@ -41,6 +41,6 @@
 
       <input type="submit" class="submit" value="Submit Payment">
     </form>
-    
+
   </body>
 </html>
